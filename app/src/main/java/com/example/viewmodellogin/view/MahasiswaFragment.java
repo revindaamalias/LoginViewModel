@@ -36,7 +36,6 @@ public class MahasiswaFragment extends Fragment {
             @Override
             public void onChanged(MahasiswaModel mahasiswaModel) {
                 binding.txtNIM2.setText(Integer.toString(mahasiswaModel.getNIM()));
-                binding.txtName2.setText(String.valueOf(mahasiswaModel.getNama()));
                 binding.txtSemester2.setText(Integer.toString(mahasiswaModel.getSemester()));
             }
         });
